@@ -1,0 +1,32 @@
+{
+    "name": "nextjs-koa-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "next build",
+        "start": "NODE_ENV=production node index.js",
+        "dev": "NODE_ENV=development node index.js"
+    },
+    "author": "danielstaleiny",
+    "license": "GPL",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "koa": "^2.5.1",
+        "koa-helmet": "^4.0.0",
+        "koa-router": "^7.4.0",
+        "next": "^6.0.1",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2"
+    },
+    "devDependencies": {
+        "koa-logger": "^3.2.0"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "bracketSpacing": true
+    }
+}
